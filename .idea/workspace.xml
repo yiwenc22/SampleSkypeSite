@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac99f26-4904-4a72-bf63-63ecc83400fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,5 +25,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="102" key="FileChooserDialogImpl" timestamp="1582658361341">
+      <screen x="0" y="0" width="1216" height="720" />
+    </state>
+    <state x="390" y="102" key="FileChooserDialogImpl/0.0.1216.720@0.0.1216.720" timestamp="1582658361341" />
+    <state x="274" y="85" key="new project wizard" timestamp="1582658362289">
+      <screen x="0" y="0" width="1216" height="720" />
+    </state>
+    <state x="274" y="85" key="new project wizard/0.0.1216.720@0.0.1216.720" timestamp="1582658362289" />
+    <state x="575" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1582666180900">
+      <screen x="0" y="0" width="1216" height="720" />
+    </state>
+    <state x="575" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1216.720@0.0.1216.720" timestamp="1582666180900" />
   </component>
 </project>

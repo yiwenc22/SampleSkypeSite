@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<link rel="stylesheet" href="style.css"/>
 <head>
   <meta charset="UTF-8">
   <title>Skype</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body style="background-color:#F2F2F2">
 
 
-<div id="begin" style="background-color: white; box-shadow: none; border:none" class="ui borderless menu">
+<div class="ui borderless topmenu menu">
 
   <div class="ui container">
 
-    <div class="fixed item">
-      <img src="ggw.png">
-    </div>
+    <img class="ui small image item"
+         src="https://secure.skypeassets.com/content/dam/scom/images/logos/re1mu3b.png"></img>
     <a class="item">|</a>
-    <h1><a class="item">Skype</a></h1>
-      <a class="item">Downloads</a>
-      <a class="item">Skype to Phone</a>
-      <a class="item">Skype Number</a>
-      <a class="item">Features</a>
+    <a class="item">Skype</a>
+    <a class="item">Downloads</a>
+    <a class="item">Skype to Phone</a>
+    <a class="item">Skype Number</a>
+    <a class="item">Features</a>
     <div class="ui dropdown simple item">
       Products
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item">Number</div>
+        <div class="item">Meet now</div>
+        <div class="item">Skype Manager</div>
+        <div class="item">Skype with Alexa</div>
+        <div class="item">Skype for Business</div>
       </div>
     </div>
     <div class="ui dropdown simple item">
       Gets Help
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item">CALL ME</div>
+        <div class="item">Skype Support</div>
+        <div class="item">Community</div>
+        <div class="item">About Skype</div>
       </div>
     </div>
     <div id="sign" class="ui dropdown right item">
@@ -49,42 +53,79 @@
   </div>
 </div>
 <img class="ui centered fitted image " src="bg.png">
+<div style="background-image: url("")class="text">Skype Make it easy to stay in touch Talk.</div>
 
 </div>
 
 <div class="footer">
-  <div style="background-color: lightgrey;" class="ui three column grid container">
+  <div style="background-color: #F2F2F2; padding: 50px;" class="ui four column grid container">
 
     <div class="column">
-      <h1>What's new</h1>
-      <p>Surface Pro X</p>
-      <p>Surface Laptop 3</p>
-      <p>Surface Pro 7</p>
-      <p>Windows 10 apps</p>
-      <p>Office apps</p>
+      <div class="ui link list">
+        <h2>
+          <div class="active item">What's new</div>
+        </h2>
+        <p><a class="item">Surface Pro X</a></p>
+        <p><a class="item">Surface Labtop 3</a></p>
+        <p><a class="item">Surface Pro 7</a></p>
+        <p><a class="item">Windows 10 apps</a></p>
+        <p><a class="item">Office apps</a></p>
+      </div>
     </div>
     <div class="column">
-      <h1>Microsoft Store</h1>
-      <p>Account profile</p>
-      <p>Download Center</p>
-      <p>Microsoft Store support</p>
-      <p>Buy online, pick up in store</p>
-      <p>In-store events</p>
+      <div class="ui link list">
+        <h2>
+          <div class="active item">Microsoft Store</div>
+        </h2>
+        <p><a class="item">Account profile</a></p>
+        <p><a class="item">Download Center</a></p>
+        <p><a class="item">Microsoft Store support</a></p>
+        <p><a class="item">Returns</a></p>
+        <p><a class="item">Order tracking</a></p>
+      </div>
     </div>
     <div class="column">
-      <h1>Education</h1>
-      <p>Microsoft in education</p>
-      <p>Office for students</p>
-      <p>Office 365 for schools</p>
-      <p>Deals for students & parents</p>
-      <p>Microsoft Azure in education</p>
+      <div class="ui link list">
+        <h2>
+          <div class="active item">Education</div>
+        </h2>
+        <p><a class="item">Microsoft in education</a></p>
+        <p><a class="item">Office for students</a></p>
+        <p><a class="item">Office 365 for schools</a></p>
+        <p><a class="item">Deals for students & parents</a></p>
+        <p><a class="item">Microsoft Azure in education</a></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui link list">
+        <h2>
+          <div class="active item">Enterprise</div>
+        </h2>
+        <p><a class="item">Azure</a></p>
+        <p><a class="item">AppSource</a></p>
+        <p><a class="item">Automotive</a></p>
+        <p><a class="item">Government</a></p>
+        <p><a class="item">Health care</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="ui circular dropdown selection button">
+    <i class="world icon"></i>
+    <span class="text">English</span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item">Arabic</div>
+      <div class="item">Chinese</div>
+      <div class="item">Japanese</div>
+      <div class="item">Korean</div>
+      <div class="item">English</div>
     </div>
   </div>
 </div>
-<script>
-  $('.ui.dropdown')
-      .dropdown()
-  ;
-</script>
+  <script>
+    $('.ui.dropdown')
+        .dropdown()
+    ;
+  </script>
 </body>
 </html>
