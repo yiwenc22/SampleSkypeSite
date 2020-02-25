@@ -6,5 +6,19 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #F2F2F2;
+}
+
+.main-background {
+  background-image: url("https://lh3.googleusercontent.com/proxy/6uABKvDKpFWzM8YzQz8c0XMiPZd9C3znq_emBcNZrG3G97CBVYnuuwJ-qoBmsKGj1YOQigO-EZ0c3_k6DFlLhaiin_U9n6RRps9r4xvRQOqpVdECAIDoq7vOWQSWf-oRnQPpS4qXgzCDbl8_sxk");
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.ui.header{
+  color: black;
+  padding-right: 800px;
+  padding-left: 50px;
+  padding-top: 200px;
 }
