@@ -1,8 +1,12 @@
-
 .ui.borderless.topmenu.menu {
   background-color: white;
   box-shadow: none;
   border: none;
+  padding-right: 500px;
+}
+
+.ui.dropdown.right.item {
+  padding-left: 600px;
 }
 
 .footer {
@@ -10,15 +14,23 @@
 }
 
 .main-background {
-  background-image: url("https://lh3.googleusercontent.com/proxy/6uABKvDKpFWzM8YzQz8c0XMiPZd9C3znq_emBcNZrG3G97CBVYnuuwJ-qoBmsKGj1YOQigO-EZ0c3_k6DFlLhaiin_U9n6RRps9r4xvRQOqpVdECAIDoq7vOWQSWf-oRnQPpS4qXgzCDbl8_sxk");
+  background-image: url("https://cdn.discordapp.com/attachments/566007145691217940/682144369108975620/unknown.png");
   background-size: cover;
-  height: 500px;
+  height: 425px;
   color: white;
 }
 
-.ui.header{
+.ui.container {
+  width: 100%;
+  padding-right: 125px;
+  padding-left: 125px;
+
+
+}
+
+.header {
+  padding-top: 100px;
+  padding-left: 100px;
   color: black;
-  padding-right: 800px;
-  padding-left: 50px;
-  padding-top: 200px;
+
 }
